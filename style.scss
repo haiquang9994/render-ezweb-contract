@@ -1,5 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,700|Roboto+Condensed:400,700&subset=vietnamese';
-@import 'https://fonts.googleapis.com/css?family=IBM+Plex+Serif';
+@import 'https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300';
 
 $page_width: 8.3in;
 $page_height: 11.7in;
@@ -21,12 +21,12 @@ $page_height: 11.7in;
 }
 body{
     font-family: 'IBM Plex Serif', serif;
-    line-height: 1.525;
     font-weight: 300;
-    margin: 0 auto
+    margin: 0 auto;
+    line-height: 1.525; 
 }
 p{
-    margin: 0 0 5px 0
+    margin: 0 0 5px 0;
 }
 ul li{
     list-style: none;
@@ -34,11 +34,12 @@ ul li{
 .business-header{
     font-family: 'roboto condensed';
     clear: both;
-    margin: 40px 0 80px 0
+    margin: 40px 0 80px 0;
 }
  .business-header span:not(.business-logo){
     float: right;
-    font-size: 14px;
+    font-size:13px;
+    line-height:18px;
 }
 .business-header span:not(.business-logo) > p{
     text-align: right;
@@ -111,7 +112,7 @@ ul li{
 }
 .business-content .col-right{
     float: left;
-    width: calc(100% - 120px)
+    width: calc(100% - 120px);
 }
 .business-content .col-right ul:first-child{
     margin-bottom: 50px;
@@ -129,9 +130,9 @@ ul li{
 .business-row .col-right .col-left{
     min-width: 50px;
     font-family: 'IBM Plex Serif', serif;
-    // font-size: 20px;
+    /*font-size: 20px;*/
     font-weight: normal;
-    line-height: 25px;
+    /*line-height: 25px;*/
 }
  .business-row .col-right .col-right{
     width: calc(100% - 50px)
@@ -237,9 +238,6 @@ ul li{
 .business-row.custom-list-article li ul{
     padding-left: 40px;
     margin-top: 20px;
-}
-.business-row.custom-list-article .col-right li ul li .col-left{
-    min-width: 20px
 }
  .business-row.custom-list-article .col-right .col-left{
     margin-bottom: 0;
