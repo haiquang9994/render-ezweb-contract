@@ -1,5 +1,34 @@
 {
+  "name": "render-ezweb-contract",
+  "version": "1.0.0",
+  "description": "render ezweb contract",
+  "main": "index.js",
   "dependencies": {
-    "relaxedjs": "^0.1.3"
-  }
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "crypto": "^1.0.1",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "jstransformer-scss": "^1.0.0",
+    "mathjax-node-page": "^2.0.0",
+    "md5": "^2.2.1",
+    "node-sass": "^4.9.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.3",
+    "puppeteer": "^1.4.0",
+    "util": "^0.10.3"
+  },
+  "repository": "git@github.com:ezweb-team/website.git",
+  "devDependencies": {},
+  "scripts": {
+    "start": "./node_modules/.bin/relaxed index.pug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "render",
+    "ezweb",
+    "contract"
+  ],
+  "author": "",
+  "license": "ISC"
 }
